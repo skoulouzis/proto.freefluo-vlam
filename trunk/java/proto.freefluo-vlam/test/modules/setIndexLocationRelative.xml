@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:VLEAtomicModule xsi:type="ns1:VLEAtomicModule" xmlns:ns1="http://vle.wtcw.nl/htopology" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <instanceID xsi:type="xsd:string" xsi:nil="true" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+ <name xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">setIndexLocationRelative</name>
+ <category categoryname="Web_Services" taxonomyURI="http://elab.science.uva.nl:7080/axis1.4/services/SearcherWS?wsdl" taxonomyValue="setIndexLocationRelative" xsi:type="ns1:CategoryType"/>
+ <VLEInputPort type="string" xsi:type="ns1:VLEInputPort">
+  <Name xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">dir</Name>
+ </VLEInputPort>
+ <host xsi:type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema">fs2.das3.science.uva.nl/jobmanager-fork</host>
+</ns1:VLEAtomicModule>
