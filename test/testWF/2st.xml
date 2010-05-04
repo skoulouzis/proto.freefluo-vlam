@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_16" class="java.beans.XMLDecoder"> 
+ <object class="nl.wtcw.vle.wfd.impl.Axis.CompositeModuleAxis"> 
+  <object class="java.util.LinkedList"/> 
+  <object class="java.util.LinkedList"/> 
+  <object class="java.util.LinkedList"/> 
+  <null/> 
+  <object class="java.util.LinkedList"/> 
+  <null/> 
+  <null/> 
+  <object class="nl.wtcw.vle.wfd.impl.Axis.TopologyAxis"> 
+   <object class="java.net.URI"> 
+    <string></string> 
+   </object> 
+   <object class="java.net.URI"> 
+    <string>https://elab.science.uva.nl:8443/wsrf/services/RTSMFactoryService</string> 
+   </object> 
+   <object class="java.util.LinkedList"> 
+    <void method="add"> 
+     <object id="AtomicModuleAxis0" class="nl.wtcw.vle.wfd.impl.Axis.AtomicModuleAxis"> 
+      <object class="java.util.LinkedList"> 
+       <void method="add"> 
+        <object id="InputPortAxis0" class="nl.wtcw.vle.wfd.impl.Axis.InputPortAxis"> 
+         <void property="name"> 
+          <string>arg</string> 
+         </void> 
+         <void property="type"> 
+          <string>anyType</string> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+      <object class="java.util.LinkedList"> 
+       <void method="add"> 
+        <object id="OutputPortAxis0" class="nl.wtcw.vle.wfd.impl.Axis.OutputPortAxis"> 
+         <void property="name"> 
+          <string>Obj2ObjReturn</string> 
+         </void> 
+         <void property="type"> 
+          <string>anyType</string> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+      <object class="java.util.LinkedList"/> 
+      <null/> 
+      <object class="java.util.LinkedList"> 
+       <void method="add"> 
+        <object class="nl.wtcw.vle.wfd.impl.Axis.CategoryAxis"> 
+         <string>Web_Services</string> 
+         <null/> 
+         <string>http://elab:7080/axis1.4/services/SimpleService?wsdl</string> 
+         <string>Obj2Obj</string> 
+        </object> 
+       </void> 
+      </object> 
+      <string>13361741</string> 
+      <string>Obj2Obj</string> 
+      <string>fs2.das3.science.uva.nl/jobmanager-fork</string> 
+      <null/> 
+     </object> 
+    </void> 
+   </object> 
+   <object class="java.util.LinkedList"/> 
+   <object class="java.util.LinkedList"/> 
+   <object class="org.jgraph.graph.GraphLayoutCache"> 
+    <void property="factory"> 
+     <object class="nl.wtcw.vle.gui.jg.MyCellViewFactory"/> 
+    </void> 
+    <void property="model"> 
+     <object class="nl.wtcw.vle.gui.jg.MyModel"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <object class="org.jgraph.graph.DefaultGraphCell"> 
+         <void method="add"> 
+          <object class="org.jgraph.graph.DefaultPort"> 
+           <void property="attributes"> 
+            <void method="put"> 
+             <string>offset</string> 
+             <object class="org.jgraph.graph.AttributeMap$SerializablePoint2D"> 
+              <void property="x"> 
+               <double>1000.0</double> 
+              </void> 
+              <void property="y"> 
+               <double>500.0</double> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+           <void property="userObject"> 
+            <object idref="OutputPortAxis0"/> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="add"> 
+          <object class="org.jgraph.graph.DefaultPort"> 
+           <void property="attributes"> 
+            <void method="put"> 
+             <string>offset</string> 
+             <object class="org.jgraph.graph.AttributeMap$SerializablePoint2D"> 
+              <void property="y"> 
+               <double>500.0</double> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+           <void property="userObject"> 
+            <object idref="InputPortAxis0"/> 
+           </void> 
+          </object> 
+         </void> 
+         <void property="attributes"> 
+          <void method="put"> 
+           <string>bordercolor</string> 
+           <object class="java.awt.Color"> 
+            <int>0</int> 
+            <int>0</int> 
+            <int>0</int> 
+            <int>255</int> 
+           </object> 
+          </void> 
+          <void method="put"> 
+           <string>bounds</string> 
+           <object class="org.jgraph.graph.AttributeMap$SerializableRectangle2D"> 
+            <void property="height"> 
+             <double>45.0</double> 
+            </void> 
+            <void property="width"> 
+             <double>133.0</double> 
+            </void> 
+            <void property="x"> 
+             <double>578.0</double> 
+            </void> 
+            <void property="y"> 
+             <double>133.0</double> 
+            </void> 
+           </object> 
+          </void> 
+          <void method="put"> 
+           <string>backgroundColor</string> 
+           <object class="java.awt.Color"> 
+            <int>255</int> 
+            <int>255</int> 
+            <int>255</int> 
+            <int>255</int> 
+           </object> 
+          </void> 
+          <void method="put"> 
+           <string>gradientColor</string> 
+           <object class="java.awt.Color"> 
+            <int>0</int> 
+            <int>255</int> 
+            <int>0</int> 
+            <int>255</int> 
+           </object> 
+          </void> 
+          <void method="put"> 
+           <string>opaque</string> 
+           <boolean>true</boolean> 
+          </void> 
+         </void> 
+         <void property="userObject"> 
+          <object idref="AtomicModuleAxis0"/> 
+         </void> 
+        </object> 
+       </void> 
+      </object> 
+      <object class="org.jgraph.graph.AttributeMap"/> 
+     </object> 
+    </void> 
+   </object> 
+  </object> 
+  <null/> 
+ </object> 
+</java> 
